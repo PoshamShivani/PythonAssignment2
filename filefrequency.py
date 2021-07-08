@@ -1,6 +1,9 @@
 from collections import Counter
-def word_Frequency(filename):
+
+
+def word_frequency(filename):
         with open(filename) as f:
                 return Counter(f.read().split())
 
-print(word_Frequency("Word.txt"))
+
+print(word_frequency("Word.txt"))
